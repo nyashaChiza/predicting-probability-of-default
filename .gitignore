@@ -5,7 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+
+#python env
 claxon-env/
+
 # Distribution / packaging
 .Python
 build/
