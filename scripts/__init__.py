@@ -1,0 +1,1 @@
+from scripts.loan_status_mapping import map_loan_status
