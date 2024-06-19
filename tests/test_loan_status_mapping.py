@@ -1,6 +1,10 @@
 
 import pytest
-from scripts import map_loan_status
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../scripts')))
+
+from loan_status_mapping import map_loan_status
 
 class TestMapLoanStatus:
 
