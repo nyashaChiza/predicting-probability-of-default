@@ -8,7 +8,7 @@ __pycache__/
 
 #python env
 claxon-env/
-
+.db
 # Distribution / packaging
 .Python
 build/
