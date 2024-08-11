@@ -53,9 +53,9 @@ for model_name, model in best_models.items():
 
 #### 4. Model Deployment using FastAPI
 
-**Steps:**
-- **Save the Best Model**: Saved the trained model using `joblib`.
-- **Create FastAPI App**: Developed a FastAPI application to serve the model.
-- **Define Prediction Endpoint**: Created an endpoint to accept input data and return predictions.
+Steps:
+-Save the Best Model: Saved the trained model using `joblib`.
+- Create FastAPI App: Developed a FastAPI application to serve the model.
+- Define Prediction Endpoint: Created an endpoint to accept input data and return predictions.
 
 This summary outlines the comprehensive steps from data exploration and preprocessing (including age and salary binning) to model training and deployment in a FastAPI application.
