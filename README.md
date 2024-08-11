@@ -50,8 +50,7 @@ for model_name, model in best_models.items():
     print(f"{model_name} - Accuracy: {accuracy_score(y_test, y_pred)}")
     print(classification_report(y_test, y_pred))
 ```
-
-#### 4. Model Deployment using FastAPI
+4. Model Deployment using FastAPI
 
 Steps:
 -Save the Best Model: Saved the trained model using `joblib`.
